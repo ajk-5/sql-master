@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssg
+coverage
+*.local
+.DS_Store
+.env
+.env.*
+!.env.example
+public/sql-wasm.wasm
+.vite
+server/scores.db
+server/scores.db-*
+
+*.tsbuildinfo

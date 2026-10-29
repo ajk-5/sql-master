@@ -1,0 +1,6 @@
+# SQL MASTER
+User-agent: *
+Allow: /
+Disallow: /sandbox
+
+Sitemap: https://sql-master.example.com/sitemap.xml

@@ -1,0 +1,66 @@
+{
+  "name": "SQL MASTER",
+  "shortName": "SQL MASTER",
+  "tagline": "Learn SQL by solving crimes",
+  "description": "A narrative SQL game. Solve 108 murder, heist, cartel and disaster-recovery cases by writing real queries against a real SQLite engine running in your browser. Earn 48 badges, from your first SELECT to point-in-time recovery.",
+  "url": "https://sql-master.example.com",
+  "locale": "en",
+  "themeColor": "#0b0e14",
+  "backgroundColor": "#0b0e14",
+  "twitter": "@sqlmaster",
+  "author": "SQL MASTER",
+  "totalLevels": 108,
+  "totalActs": 6,
+  "totalBadges": 48,
+  "docsSource": "https://sql.sh/",
+  "keywords": [
+    "learn SQL",
+    "SQL game",
+    "SQL exercises",
+    "SQL puzzle",
+    "SQLite in the browser",
+    "SQL murder mystery",
+    "SQL escape room",
+    "database recovery",
+    "SQL joins",
+    "window functions",
+    "SQL practice"
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "priority": 1.0,
+      "changefreq": "weekly"
+    },
+    {
+      "path": "/cases",
+      "priority": 0.9,
+      "changefreq": "weekly"
+    },
+    {
+      "path": "/badges",
+      "priority": 0.7,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/sandbox",
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/progress",
+      "priority": 0.4,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/leaderboard",
+      "priority": 0.8,
+      "changefreq": "daily"
+    },
+    {
+      "path": "/field-guide",
+      "priority": 0.8,
+      "changefreq": "monthly"
+    }
+  ]
+}

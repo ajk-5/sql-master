@@ -1,0 +1,22 @@
+{
+  "name": "SQL MASTER — Learn SQL by Solving Crime Cases",
+  "short_name": "SQL MASTER",
+  "description": "Solve 108 murder, heist and disaster-recovery cases by writing real SQL against a SQLite engine in your browser.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0e14",
+  "theme_color": "#0b0e14",
+  "lang": "en",
+  "categories": ["education", "games", "developer"],
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Case files", "url": "/cases" },
+    { "name": "Badges", "url": "/badges" },
+    { "name": "Codex", "url": "/codex" }
+  ]
+}
